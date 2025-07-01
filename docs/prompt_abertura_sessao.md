@@ -1,8 +1,20 @@
+> **Governança Integrada – PersonalIA & Projeto ÓMICRON**
+>
+> Esta sessão, suas operações e todas as decisões do Projeto ÓMICRON estão subordinadas à governança macro do Projeto PersonalIA ([ver diretrizes principais](https://github.com/dkaleka/personalIA)).  
+> Todas as regras, fluxos e orientações específicas deste documento devem ser interpretadas em conformidade com as diretrizes superiores do PersonalIA, que prevalecem em caso de dúvida, conflito ou ambiguidade.
+>
+> Sempre que houver divergência entre as diretrizes locais do ÓMICRON e as macro do PersonalIA, adote como padrão:
+> - **Priorizar as regras do PersonalIA**.
+> - Registrar exceções explícitas, se autorizadas, nos logs oficiais do repositório.
+>
+> Consulte e siga rigorosamente ambos os conjuntos de diretrizes.  
+> Em caso de incerteza, peça validação do usuário supervisor antes de prosseguir.
+
 # Prompt de Abertura Infalível — Projeto ÓMICRON
 
 Este prompt deve ser utilizado sempre que uma nova sessão for iniciada, seja no ChatGPT, Gemini, Claude, Perplexity ou qualquer outra IA colaborativa do projeto.
 
---- 
+---
 
 ## 1. Setup Cognitivo Rápido
 
