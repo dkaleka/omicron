@@ -1,73 +1,84 @@
-> **Governança Integrada – PersonalIA & Projeto ÓMICRON**
->
-> Esta sessão, suas operações e todas as decisões do Projeto ÓMICRON estão subordinadas à governança macro do Projeto PersonalIA ([ver diretrizes principais](https://github.com/dkaleka/personalIA)).  
-> Todas as regras, fluxos e orientações específicas deste documento devem ser interpretadas em conformidade com as diretrizes superiores do PersonalIA, que prevalecem em caso de dúvida, conflito ou ambiguidade.
->
-> Sempre que houver divergência entre as diretrizes locais do ÓMICRON e as macro do PersonalIA, adote como padrão:
-> - **Priorizar as regras do PersonalIA**.
-> - Registrar exceções explícitas, se autorizadas, nos logs oficiais do repositório.
->
-> Consulte e siga rigorosamente ambos os conjuntos de diretrizes.  
-> Em caso de incerteza, peça validação do usuário supervisor antes de prosseguir.
+# 🔓 Prompt de Abertura de Sessão — Projeto ÓMICRON
 
-# Prompt de Abertura Infalível — Projeto ÓMICRON
-
-Este prompt deve ser utilizado sempre que uma nova sessão for iniciada, seja no ChatGPT, Gemini, Claude, Perplexity ou qualquer outra IA colaborativa do projeto.
+> Este prompt foi preenchido colaborativamente pelo GPT e usuário ao final da sessão anterior.
 
 ---
 
-## 1. Setup Cognitivo Rápido
-
-- **Projeto:** ÓMICRON — solução tecnológica inovadora para eventos de grande porte.
-- **Repositório oficial:**  
-  [https://github.com/dkaleka/omicron](https://github.com/dkaleka/omicron)
-- **Diretrizes principais:**  
-  - Macro (PersonalIA): [https://github.com/dkaleka/personalIA](https://github.com/dkaleka/personalIA)
-  - Específicas: [docs/diretrizes_gerais.md](https://raw.githubusercontent.com/dkaleka/omicron/main/docs/diretrizes_gerais.md)
-
----
-
-## 2. Missão da Sessão
-
-- **Objetivo:** Retomar imediatamente o ponto em que a última sessão parou, garantindo máxima continuidade, rastreabilidade e governança.
-- **Arquivos de referência obrigatórios:**
-  - `README.md` — visão geral e estrutura.
-  - `docs/diretrizes_gerais.md` — diretrizes de execução e governança.
-  - `controle/` — checklists, logs, tabelas de status.
-  - `chatlogs/` — logs e resumos de sessões anteriores.
-- **Antes de avançar:**  
-  1. Carregue e assimile o conteúdo de `docs/diretrizes_gerais.md`.
-  2. Consulte o último log ou checklist atualizado em `/controle/` ou `/chatlogs/`.
-  3. Peça ao usuário:
-      - Qual é o objetivo imediato/demanda do dia?
-      - Há urgências, mudanças de contexto, ou decisões pendentes?
-      - Alguma alteração local ainda não sincronizada?
-      - Alguma dúvida sobre diretrizes ou arquitetura?
+- **Data/Hora:** [preencher]
+- **Sessão:** [ID]
+- **Supervisor:** Daniel Kaleka
+- **IA Condutora:** [nome]
+- **Repositório:** https://github.com/dkaleka/omicron
+- **Diretrizes macro:** https://github.com/dkaleka/personalIA/tree/main/Logs/diretrizes_gerais.md
+- **Estratégia ABAs:** https://github.com/dkaleka/omicron/tree/main/docs/estrategia_ABAs.md
+- **Diretrizes específicas:** /docs/diretrizes_gerais.md
+- **Scripts principais:** /scripts/
+- **Função:** Subprojeto, subordinado à estrutura e diretrizes do PersonalIA.
 
 ---
 
-## 3. Instruções Operacionais
+## 1. Status e Pendências da Sessão Anterior
 
-- Utilize e atualize os arquivos do repositório ao longo da sessão.
-- Priorize performance e clareza:  
-  - Responda de forma objetiva, modular e rastreável.
-  - Use listas, tabelas e formatação Markdown.
-- Se necessário reiniciar, basta reusar este prompt.
-- Não avance etapas sem reconfirmar com o usuário/supervisor.
-- Solicite resumos de sessão e salve em `/chatlogs/` sempre que encerrar ou pausar.
+- Arquivo de pendências atualizado:  
+  → Consulte o arquivo /controle/checklist_execucao.md para visualizar pendências e decisões em aberto.
 
 ---
 
-## 4. Frase de Segurança
+## 2. Objetivo Imediato da Sessão
 
-> Esta sessão segue as diretrizes oficiais de governança dos projetos PersonalIA e ÓMICRON. Em caso de qualquer dúvida, consulte os arquivos no repositório e confirme com o usuário supervisor.
+- [ ] Defina o objetivo principal do dia.
+
+---
+
+## 3. Checklist Inicial
+
+- [ ] Carregar e assimilar as seções relevantes de /docs/diretrizes_gerais.md.
+- [ ] Consultar o checklist de execução em /controle/checklist_execucao.md.
+- [ ] Confirmar objetivo imediato com o supervisor.
+- [ ] Identificar urgências ou mudanças de contexto.
+- [ ] Confirmar se há alterações locais não sincronizadas.
 
 ---
 
-## **Como usar**
+## 4. Estratégia de ABAs (resumido)
 
-- Copie e cole este prompt no início de qualquer nova sessão IA.
-- Consulte sempre o repositório online para contexto mais atualizado.
-- Confirme com o usuário objetivo e contexto antes de avançar.
+> Você, GPT, é a ABA 1 deste subprojeto.  
+> Delegue tarefas pesadas para ABA 2/3 conforme /docs/estrategia_ABAs.md.  
+> Acesse apenas os arquivos indicados neste prompt ao iniciar.  
+> Outros arquivos são para consulta eventual e só devem ser acessados conforme diretrizes, performance e governança.  
+> Sempre inclua o ID nas delegações e solicite feedback estruturado.
 
 ---
+
+## 5. Estrutura do Projeto
+
+omicron/
+├── README.md
+├── docs/
+│   ├── diretrizes_gerais.md
+│   ├── prompt_abertura_sessao.md
+│   └── estrategia_ABAs.md
+├── controle/
+│   └── checklist_execucao.md
+├── scripts/
+├── chatlogs/
+├── material_base/
+
+---
+
+## 6. Frase de Segurança
+
+> Esta sessão segue a governança macro do PersonalIA.  
+> Em caso de dúvida, consulte sempre os arquivos do repositório e valide com o supervisor.
+
+---
+
+## 7. Próxima Ação Imediata
+
+- [ ] Definir claramente o próximo passo a ser executado.
+
+---
+
+## Validação — Responsabilidade do GPT
+
+O GPT deve confirmar ponto a ponto que entendeu o objetivo, checklist e pendências; executar e registrar cada etapa; aplicar as diretrizes durante toda a sessão.
