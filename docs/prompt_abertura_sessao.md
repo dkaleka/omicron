@@ -1,4 +1,3 @@
-
 > **Governança Integrada – PersonalIA & Projeto ÓMICRON**
 >
 > Esta sessão, suas operações e todas as decisões do Projeto ÓMICRON estão subordinadas à governança macro do Projeto PersonalIA ([diretrizes principais - raw](https://raw.githubusercontent.com/dkaleka/personalIA/main/Logs/diretrizes_gerais.md)).  
@@ -32,10 +31,7 @@ Antes de executar qualquer tarefa nesta sessão, **carregue e assimile os seguin
    - [PersonalIA: diretrizes_gerais.md (raw)](https://raw.githubusercontent.com/dkaleka/personalIA/main/Logs/diretrizes_gerais.md)
 
 2. **Fluxo e papéis das ABAs:**
-   - [ÓMICRON: docs/operacao_abas.md (raw)](https://raw.githubusercontent.com/dkaleka/omicron/main/docs/operacao_abas.md)
-
-3. **Briefing completo e histórico do projeto:**
-   - [ÓMICRON: docs/contextualizacao_aba1.md (raw)](https://raw.githubusercontent.com/dkaleka/omicron/main/docs/contextualizacao_aba1.md)
+   - [PersonalIA: Logs/estrategia_ABAs.md (raw)](https://raw.githubusercontent.com/dkaleka/personalIA/main/Logs/estrategia_ABAs.md)
 
 ---
 
@@ -62,8 +58,7 @@ Este prompt deve ser utilizado sempre que uma nova sessão for iniciada (ChatGPT
 - **Arquivos de referência obrigatórios:**
   - [README.md (raw)](https://raw.githubusercontent.com/dkaleka/omicron/main/README.md) — visão geral e estrutura.
   - [docs/diretrizes_gerais.md (raw)](https://raw.githubusercontent.com/dkaleka/omicron/main/docs/diretrizes_gerais.md) — diretrizes de execução e governança.
-  - [docs/operacao_abas.md (raw)](https://raw.githubusercontent.com/dkaleka/omicron/main/docs/operacao_abas.md) — lógica de múltiplas ABAs.
-  - [docs/contextualizacao_aba1.md (raw)](https://raw.githubusercontent.com/dkaleka/omicron/main/docs/contextualizacao_aba1.md) — briefing/contexto completo.
+  - [PersonalIA: Logs/estrategia_ABAs.md (raw)](https://raw.githubusercontent.com/dkaleka/personalIA/main/Logs/estrategia_ABAs.md) — lógica de múltiplas ABAs, onboarding, briefing/contexto completo.
   - `/controle/` — checklists, logs, tabelas de status ([controle/checklist_execucao.md (raw)](https://raw.githubusercontent.com/dkaleka/omicron/main/controle/checklist_execucao.md)).
   - `/chatlogs/` — logs e resumos de sessões anteriores.
 
@@ -86,7 +81,7 @@ Este prompt deve ser utilizado sempre que uma nova sessão for iniciada (ChatGPT
 
 - **Responda de forma objetiva, modular, rastreável e sempre em Markdown.**
 - **Use listas, tabelas e resumos quando possível.**
-- **Delegue chunking/processamento de grandes arquivos para ABA2 ou para o Google Notebook conforme fluxo definido em [docs/operacao_abas.md (raw)](https://raw.githubusercontent.com/dkaleka/omicron/main/docs/operacao_abas.md).**
+- **Delegue chunking/processamento de grandes arquivos para ABA2 ou para o Google Notebook conforme fluxo definido em [Logs/estrategia_ABAs.md (raw)](https://raw.githubusercontent.com/dkaleka/personalIA/main/Logs/estrategia_ABAs.md).**
 - **Valide e integre resultados ao repositório sempre que finalizar uma etapa.**
 - **Jamais avance etapas sem reconfirmar com o usuário supervisor.**
 - **Ao encerrar ou pausar, gere resumo e salve em `/chatlogs/`.**
